@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px
 
 #lectura de datos
-car_data = pd.read_csv('/Users/d.leon/Desktop/TRIPLETEN/proyecto-7/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
 #Encabezado de la app
 st.header('ANALISIS DE VEHICULOS')
