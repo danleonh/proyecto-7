@@ -17,5 +17,4 @@ if st.button("Mostrar histograma"):
 #boton de grafico de dispersion
 if st.button('Generar Gráfico de Dispersión'):
     fig_scatter = px.scatter(car_data, x="odometer", y="price", title="Gráfico de Dispersión de Odómetro vs Precio")
-    st.write(fig_scatter)
     st.plotly_chart(fig_scatter, use_container_width=True, key='dispersion')
